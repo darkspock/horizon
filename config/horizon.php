@@ -12,7 +12,7 @@ return [
     | This is the subdomain where Horizon will be accessible from. If this
     | setting is null, Horizon will reside under the same domain as the
     | application. Otherwise, this value will serve as the subdomain.
-    |
+    | 
     */
 
     'domain' => env('HORIZON_DOMAIN'),
@@ -51,6 +51,7 @@ return [
     | This prefix will be used when storing all Horizon data in Redis. You
     | may modify the prefix when you are running multiple installations
     | of Horizon on the same server so that they don't have problems.
+    | Remember, the prefix must end with a colon :.
     |
     */
 
